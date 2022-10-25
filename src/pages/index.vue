@@ -1,7 +1,5 @@
 <template>
-  <section>
-    <h1 class="text-2xl">
-      Bonjour<code class="font-mono text-base">/src/pages/index.vue</code>
-    </h1>
-  </section>
+  <div>
+    <h3 class="text-black font-Oswald">PERSONNALISEZ VOTRE MONTRE CONNECTÉE</h3>
+  </div>
 </template>
