@@ -4,7 +4,19 @@ const formKitTailwind = require("@formkit/themes/tailwindcss");
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'Bodoni-Moda' : ['Bodoni Moda', 'serif'] ,
+        'Inter' : ['Inter', 'sans empattement'] ,
+        'Oswald' : ['Oswald', 'sans empattement'] ,
+      },
+      colors : {
+        'Noir1' : '#242732',
+        'Noir2' : '#333333',
+        'Gris' : '#E5E5E5',
+        'Gris1' : '#F5F5F5',
+      }
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),
