@@ -8,7 +8,7 @@
       </div>
 
       <div class="">
-        <router-link class="mx-5 " to="/modele">MES MODÈLES</router-link>
+        <router-link class="mx-5 " to="/modeles">MES MODÈLES</router-link>
         <router-link class="mx-5" to="/personnaliser">PERSONNALISER</router-link>
         <router-link class="mx-5" to="/connexion">CONNEXION</router-link>
       </div>
