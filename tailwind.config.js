@@ -15,6 +15,8 @@ module.exports = {
         'Noir2' : '#333333',
         'Gris' : '#E5E5E5',
         'Gris1' : '#F5F5F5',
+        'Bleu' : '#5286EC',
+        'BleuFB' : '#415893'
       }
     },
   },
