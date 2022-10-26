@@ -22,8 +22,11 @@ import FormMontre from "@/components/FormMontre.vue"
         <div class="">
             <h3 class="text-black font-Oswald text-center text-4xl">MODÈLES D’INSPIRATIONS</h3>
         </div>
-        <div class="flex flex-col items-center py-10">
-            <img class="h-72" src="../assets/Montres-inspi.png" alt="Inspirations montres"/>
+        <div class="grid grid-cols-4 place-items-center py-10  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
+            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
+            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
+            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
         </div>
 
 

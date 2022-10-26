@@ -45,7 +45,7 @@ import MontreAffichage from './MontreAffichage.vue';
             </div>
         <section class="grid grid-cols-2 w-1/2 place-items-center">
             <div class="p-2 flex flex-col-reverse">
-                <FormKit type="form" v-model="montre"  :submit-attrs="{ classes: { input: 'bg-Gris py-3 px-24 font-Oswald m-5' } }"
+                <FormKit type="form" v-model="montre"  :submit-attrs="{ classes: { input: 'bg-Gris py-3 px-24 font-Oswald m-5 hover:bg-Bleu hover:text-white' } }"
                 @submit="upsertMontre" submit-label="AJOUTER AU PANIER">
 
                     <div class="my-7">           
