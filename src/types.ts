@@ -6,6 +6,8 @@ export interface Montre {
   }
 
 export const colors = {
+    "#FFFFFF": "Blanc",
+    "#000000": "Noir",
     "#5F5654": "Taupe",
     "#4B6087": "Bleu",
     "#5D757C": "Kaki",

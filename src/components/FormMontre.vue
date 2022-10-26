@@ -38,22 +38,46 @@ import MontreAffichage from './MontreAffichage.vue';
 
  </script>
 
- <template> 
- 
-        <div>
-            <MontreAffichage v-bind="montre"/>
-        </div>
-    <section class="grid grid-cols-2">
-        <div class="p-2">
-            <FormKit type="form" v-model="montre" @submit="upsertMontre">
-                <FormKitListColors name="boitier" label="Couleur du boîtier" />
-                <FormKitListColors name="bracelet" label="Couleur du bracelet" />
-                <FormKitListColors name="ecran" label="Couleur de l'écran" />
-                <FormKitListColors name="texte" label="Couleur du texte" />
-            </FormKit>
-        </div>
+ <template>  
+    <div class="flex w-full justify-center items-center">   
+            <div class="w-1/2 grid place-content-center">
+                <MontreAffichage class="h-96" v-bind="montre"/>
+            </div>
+        <section class="grid grid-cols-2 w-1/2 place-items-center">
+            <div class="p-2 flex flex-col-reverse">
+                <FormKit type="form" v-model="montre"  :submit-attrs="{ classes: { input: 'bg-Gris py-3 px-24 font-Oswald m-5' } }"
+                @submit="upsertMontre" submit-label="AJOUTER AU PANIER">
 
-       
-    </section>
+                    <div class="my-7">           
+                        <p class="font-Oswald">Couleur du bracelet</p>
+                        <hr class="border-black border-1 my-4" />
+                        <FormKitListColors name="bracelet" />
+                    </div>
+                    <div class="my-7">
+                        <p class="font-Oswald">Couleur du boîtier</p>
+                        <hr class="border-black border-1 my-4" />
+                        <FormKitListColors name="boitier" />
+                    </div>
+                    <div class="my-7">
+                        <p class="font-Oswald">Couleur de l'écran</p>
+                        <hr class="border-black border-1 my-4" />
+                        <FormKitListColors name="ecran" />
+                    </div>
+                    <div class="my-7">
+                        <p class="font-Oswald">Couleur du texte</p>
+                        <hr class="border-black border-1 my-4" />
+                        <FormKitListColors name="texte" />
+                    </div>
+                </FormKit>
+
+                <div class="grid place-items-center">
+                    <h3>Montre Tik-Tak</h3>
+                    <h4>Exclu WEB</h4>
+                    <h4 class="text-5xl font-Oswald text-Rouge">239€</h4>
+                </div>
+            </div>
+        </section>
+    </div>  
  </template>
+
 
