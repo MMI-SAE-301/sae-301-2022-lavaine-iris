@@ -1,6 +1,6 @@
 <template>
 
-    <div class="bg-[url('/public/fond-connexion.jpg')]">
+    <div class="bg-[url('@/assets/fond-connexion.jpg')] h-screen">
         <h3 class="text-white font-Oswald text-center text-4xl">CRÉER UN COMPTE</h3>
         <div class="flex justify-center place-items-center">
             <div class=" flex justify-evenly bg-Gris/70 w-fit">
@@ -31,7 +31,5 @@
                 </div>
             </div>
         </div>
-
-
     </div>
 </template>
