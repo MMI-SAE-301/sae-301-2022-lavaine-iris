@@ -1,6 +1,16 @@
+<script setup lang="ts">
+
+import FormMontre from "@/components/FormMontre.vue"
+
+</script>
+
 <template>
     <div>
         <h3 class="text-black font-Oswald text-center text-4xl">PERSONNALISATION</h3>
+    </div>
+
+    <div class="flex">
+        <FormMontre />
     </div>
 
     <div>

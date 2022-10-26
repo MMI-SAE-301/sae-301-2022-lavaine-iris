@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'Bodoni-Moda' : ['Bodoni Moda', 'serif'] ,
+        'Bodoni-Moda' : ['Bodoni-Moda', 'serif'] ,
         'Inter' : ['Inter', 'sans empattement'] ,
         'Oswald' : ['Oswald', 'sans empattement'] ,
       },
