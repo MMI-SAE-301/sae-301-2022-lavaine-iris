@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import card from "../components/card.vue"
+</script>
+
 <template>
   <div class="bg-Noir1">
     <div>
@@ -27,6 +31,12 @@
 
     <div>
       <h3 class="text-white font-Oswald text-center p-5 text-4xl">AVIS CLIENTS</h3>
+      <div class="grid grid-cols-3">
+        <card />
+        <card />
+        <card />
+      </div>
     </div>
+
   </div>
 </template>
