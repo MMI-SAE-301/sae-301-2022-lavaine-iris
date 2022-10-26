@@ -8,7 +8,7 @@ import card from "../components/card.vue"
       <h3 class="text-white font-Oswald text-center p-10 text-4xl">PERSONNALISEZ VOTRE MONTRE CONNECTÉE</h3>
     </div>
     <div class="flex">
-        <img class="h-96 m-24" src="/public/Montres.png" alt="Montres"/>
+        <img class="h-96 m-24" src="../assets/Montres.png" alt="Montres"/>
 
       <div class="flex flex-col place-items-center m-20">
         <p class="text-white text-xl text-center p-5">Les montres connectées unisexe sont très en vogue ! Elles permettent à la fois de recevoir les notifications du téléphone directement sur sa montre (appels, messages, réseaux sociaux) mais elle est aussi un atout sportif (podomètre, calories…). Tik-Tak vous propose une personnalisation complète des couleurs de votre montre (bracelet, boîtier, écran).</p>
@@ -28,15 +28,15 @@ import card from "../components/card.vue"
       <h3 class="text-white font-Oswald text-center text-4xl">MODÈLES D’INSPIRATIONS</h3>
     </div>
     <div class="flex flex-col items-center py-10">
-      <img class="h-72" src="/public/Montres-inspi.png" alt="Inspirations montres"/>
+      <img class="h-72" src="../assets/Montres-inspi.png" alt="Inspirations montres"/>
     </div>
 
     <div>
       <h3 class="text-white font-Oswald text-center p-5 text-4xl">AVIS CLIENTS</h3>
       <div class="grid grid-cols-3">
         <card />
-        <card :nom="'Lila'" image="/public/lila.png" desc="Agréablement surprise, c'est bien plus qu'une montre ! La personnalisation est un grand plus."  />
-        <card :nom="'Éric'" image="/public/eric.png" desc="Je l'ai offert en cadeau d'anniversaire à ma femme, elle ne s'en sépare plus, je ne regrette pas l'achat de ce produit."  />
+        <card :nom="'Lila'" image="../assets/lila.png" desc="Agréablement surprise, c'est bien plus qu'une montre ! La personnalisation est un grand plus."  />
+        <card :nom="'Éric'" image="../assets/eric.png" desc="Je l'ai offert en cadeau d'anniversaire à ma femme, elle ne s'en sépare plus, je ne regrette pas l'achat de ce produit."  />
       </div>
     </div>
 

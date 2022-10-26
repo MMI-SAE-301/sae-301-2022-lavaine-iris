@@ -31,7 +31,7 @@ defineProps({
     },
     image : {
         type: String,
-        default: "/public/clement.png"
+        default: "/src/assets/clement.png"
     },
     desc : {
         type: String,

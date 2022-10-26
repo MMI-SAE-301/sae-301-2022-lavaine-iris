@@ -3,7 +3,7 @@
     <nav class="flex justify-between">
       <div class="">
         <router-link to="/">
-          <img class="w-40" src="public/Logo.png"/>
+          <img class="w-40" src="./assets/Logo.png"/>
         </router-link>
       </div>
 
@@ -26,7 +26,7 @@
       <div>
         <div class="p-2 flex justify-center">
           <router-link to="/">
-            <img class="w-40" src="public/Logo.png"/>
+            <img class="w-40" src="./assets/Logo.png"/>
           </router-link>
         </div>
         <hr class="border-black border-1 my-4" />
