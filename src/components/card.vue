@@ -3,7 +3,7 @@
         <div class="flex justify-center translate-y-6">
             <img class="w-24 " :src="image" alt="Clément" />
         </div>
-        <div class="bg-Gris rounded-lg w-fit p-3 flex flex-col place-items-center pt-8">
+        <div class="bg-Gris rounded-lg h-72  p-3 flex flex-col place-items-center pt-8 ">
             
             <p class="m-3">{{nom}}</p>
             <div class="flex m-3">

@@ -33,8 +33,8 @@ import card from "../components/card.vue"
       <h3 class="text-white font-Oswald text-center p-5 text-4xl">AVIS CLIENTS</h3>
       <div class="grid grid-cols-3">
         <card />
-        <card />
-        <card />
+        <card :nom="'Lila'" image="/public/lila.png" desc="Agréablement surprise, c'est bien plus qu'une montre ! La personnalisation est un grand plus."  />
+        <card :nom="'Éric'" image="/public/eric.png" desc="Je l'ai offert en cadeau d'anniversaire à ma femme, elle ne s'en sépare plus, je ne regrette pas l'achat de ce produit."  />
       </div>
     </div>
 
