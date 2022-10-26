@@ -46,10 +46,10 @@ import MontreAffichage from './MontreAffichage.vue';
     <section class="grid grid-cols-2">
         <div class="p-2">
             <FormKit type="form" v-model="montre" @submit="upsertMontre">
-                <FormKitListColors name="boitier" label="boitier" />
-                <FormKitListColors name="bracelet" label="bracelet" />
-                <FormKitListColors name="ecran" label="ecran" />
-                <FormKitListColors name="texte" label="texte" />
+                <FormKitListColors name="boitier" label="Couleur du boîtier" />
+                <FormKitListColors name="bracelet" label="Couleur du bracelet" />
+                <FormKitListColors name="ecran" label="Couleur de l'écran" />
+                <FormKitListColors name="texte" label="Couleur du texte" />
             </FormKit>
         </div>
 

@@ -29,7 +29,7 @@ import { supabase, user } from '../supabase';
                         </div>
                     </button>
 
-                    <button class="flex justify-between items-center bg-BleuFB">
+                    <button class="flex justify-between items-center bg-BleuFB" @pointerdown="supabase.auth.signIn({ provider: 'facebook' })">
                         <div class="bg-white border-2 border-BleuFB w-16 h-16 grid items-center place-content-center">
                             <img class="h-10" src="../assets/LogoFacebook.png" alt="Logo Facebook">
                         </div>
