@@ -9,11 +9,11 @@ import { supabase, user } from '../supabase';
                 </button>
     </div>
 
-    <div v-else class="bg-[url('@/assets/fond-connexion.jpg')] h-screen">
-        <h3 class="text-white font-Oswald text-center text-4xl">CRÉER UN COMPTE</h3>
-        <div class="flex justify-center place-items-center">
-            <div class=" flex justify-evenly bg-Gris/70 w-fit">
-                <div class=" p-3 flex flex-col">
+    <div v-else class="bg-[url('@/assets/fond-connexion.jpg')] h-screen max-w-screen">
+        <h3 class="text-white font-Oswald text-center text-4xl p-8">CRÉER UN COMPTE</h3>
+        <div class="flex justify-center place-items-center h-screen w-screen">
+            <div class=" flex justify-evenly bg-Gris/70">
+                <div class="p-3 flex flex-col">
                     <input class="m-2 rounded-md" type="text">
                     <input class="m-2 rounded-md" type="text">
                     <p>Vous avez déjà un compte ? <router-link class="underline" to="/connexion">Connectez-vous ici</router-link></p>
