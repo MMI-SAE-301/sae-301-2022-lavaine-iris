@@ -1,22 +1,9 @@
 <script setup lang="ts">
 import { ref } from "@vue/reactivity";
 import { supabase, user } from "../supabase";
-
-async function signIn(data, node) {
-  const { user, error } = await (nvlUtilisateur.value
-    ? supabase.auth.signUp(data)
-    : supabase.auth.signIn(data));
-  if (error) {
-    console.error(error);
-    node.setErrors([error.message]);
-  }
-}
-const nvlUtilisateur = ref(false);
 </script>
 
 <template>
-
-    
     <div v-if="user" class="flex justify-center">
                 <button @pointerdown="supabase.auth.signOut()">
                     Se déconnecter ({{user.email}})
@@ -27,24 +14,9 @@ const nvlUtilisateur = ref(false);
         <h3 class="text-white font-Oswald text-center text-4xl p-8">CRÉER UN COMPTE</h3>
         <div class="flex justify-center place-items-center h-screen w-screen">
             <div class=" flex justify-evenly bg-Gris/60">
-                <div class="p-3 flex flex-col">
-                    <div>
-
-    <FormKit
-      type="form"
-      :submit-label="nvlUtilisateur ? 'S\'inscrire' : 'Se connecter'"
-      @submit="signIn"
-    >
-      <FormKit name="email" label="Adresse e-mail" type="email" />
-      <FormKit name="password" label="Mot de passe" type="password" />
-      <formKit
-        label="Nouvel utilisateur ?"
-        name="nvlUtilisateur"
-        type="checkbox"
-        v-model="nvlUtilisateur"
-      />
-    </FormKit>
-  </div>
+          <div class="p-3 flex flex-col">
+                  <input type="text" class="rounded-md my-5">
+                  <input type="text" class="rounded-md my-5">
                     <p>Vous avez déjà un compte ? <router-link class="underline" to="/connexion">Connectez-vous ici</router-link></p>
                     <button class="bg-white py-4 px-20 font-Oswald font-semibold m-10 my-16">CRÉER UN COMPTE</button>
                 </div>

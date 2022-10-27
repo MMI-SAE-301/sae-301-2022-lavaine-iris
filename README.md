@@ -3,9 +3,9 @@
 - **Nom : Lavaine**
 - **Prénom : Iris**
 - **URL maquette Figma: https://www.figma.com/file/oItuFjL78Ppaxbz4CCAVDDSA%C3%89-301?node-id=0%3A1**
-- **URL publique du site :**
-- **URL projet Supabase :**
-  - [ ] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
+- **URL publique du site : https://tiktak.ilavaine.fr/**
+- **URL projet Supabase : https://app.supabase.com/project/sayecxsighrbqmarpykd**
+  - [x] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
 # Auto-évaluation
 
@@ -15,7 +15,7 @@ Vous avez rendu à la racine du projet :
 
 - [x] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
 - [ ] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
-- [ ] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
+- [x] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
 
 ## R312 | Intégrer ([Pierre Pracht : AC 2401](https://moodle.univ-fcomte.fr/mod/assign/view.php?id=612668))
 
