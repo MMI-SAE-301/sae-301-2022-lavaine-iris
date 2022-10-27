@@ -23,17 +23,14 @@ const nvlUtilisateur = ref(false);
                 </button>
     </div>
 
-    <div v-else class="bg-[url('@/assets/fond-connexion.png')] h-screen max-w-screen">
+    <div v-else class="bg-[url('@/assets/fond-connexion.png')] max-w-screen">
         <h3 class="text-white font-Oswald text-center text-4xl p-8">CRÉER UN COMPTE</h3>
         <div class="flex justify-center place-items-center h-screen w-screen">
             <div class=" flex justify-evenly bg-Gris/60">
                 <div class="p-3 flex flex-col">
                     <div>
-    <button v-if="user" @pointerdown="supabase.auth.signOut()">
-      Se déconnecter ({{ user.email }})
-    </button>
+
     <FormKit
-      v-else
       type="form"
       :submit-label="nvlUtilisateur ? 'S\'inscrire' : 'Se connecter'"
       @submit="signIn"
