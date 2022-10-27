@@ -39,7 +39,7 @@ import MontreAffichage from './MontreAffichage.vue';
  </script>
 
  <template>  
-    <div class="flex w-full justify-center items-center dark:bg-gray-800 dark:text-white">   
+    <div class="sm:grid sm:grid-cols-1 xl:flex w-full xl:justify-center xl:items-center dark:bg-gray-800 dark:text-white">   
             <div class="w-1/2 grid place-content-center">
                 <MontreAffichage class="h-96 dark:bg-Gris dark:rounded-full" v-bind="montre"/>
             </div>
