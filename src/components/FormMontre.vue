@@ -46,7 +46,7 @@
         <section class="grid grid-cols-2 place-items-center md:grid-cols-1">
             <div class="p-2 flex flex-col-reverse md:grid-cols-1">
                 <FormKit type="form" v-model="montre"  :submit-attrs="{ classes: { input: 'bg-Gris py-3 px-24 font-Oswald m-5 hover:bg-Bleu hover:text-white dark:bg-white dark:text-black' } }"
-                @submit="upsertMontre" submit-label="AJOUTER AU PANIER">
+                @submit="upsertMontre" submit-label="ENREGISTRER COMME MODÈLE">
 
                     <div class="my-7">           
                         <p class="font-Oswald">Couleur du bracelet</p>

@@ -11,7 +11,7 @@ import card from "../components/card.vue"
         <img class="h-96 m-24" src="../assets/Montres.png" alt="Montres"/>
       <div class="flex flex-col place-items-center m-20">
         <p class="text-white text-xl text-center p-5">Les montres connectées unisexe sont très en vogue ! Elles permettent à la fois de recevoir les notifications du téléphone directement sur sa montre (appels, messages, réseaux sociaux) mais elle est aussi un atout sportif (podomètre, calories…). Tik-Tak vous propose une personnalisation complète des couleurs de votre montre (bracelet, boîtier, écran).</p>
-        <h4 class="text-white font-Oswald text-3xl p-5">OFFRE DE LANCEMENT : 239€ AU LIEU DE 299€ !</h4>
+        <h4 class="text-white font-Oswald text-2xl p-5">OFFRE DE LANCEMENT : 239€ AU LIEU DE 299€ !</h4>
         <router-link to="/personnaliser">
           <button class="bg-white py-4 px-20 font-Oswald font-semibold m-5 hover:bg-Gris">PROFITEZ-EN</button>
         </router-link>
