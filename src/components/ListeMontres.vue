@@ -15,9 +15,9 @@
  </script>
  <template>
      <ul class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center">
-         <li v-for="montre in montres" :key="montre.id">
-            <router-link :to="{ name: 'edit-id', params: { id: montre.id } }">
-                 <MontreAffichage class="w-64 flex" v-bind="montre" />
+         <li v-for="Montre in montres" :key="Montre.id">
+            <router-link :to="{ name: 'edit-id', params: { id: Montre.id } }">
+                 <MontreAffichage class="w-64 flex" v-bind="Montre" />
             </router-link>
          </li>
      </ul>

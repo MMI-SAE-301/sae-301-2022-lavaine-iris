@@ -20,7 +20,7 @@ import MontreAffichage from './MontreAffichage.vue';
      let { data, error } = await supabase
          .from("Montre")
          .select("*")
-         .eq("Id", props.id);
+         .eq("id", props.id);
      if (error || !data)
          console.log("n'a pas pu charger la table Montre :", error);
      else montre.value = data[0];
