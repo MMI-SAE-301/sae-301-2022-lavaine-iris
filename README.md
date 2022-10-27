@@ -14,7 +14,7 @@
 Vous avez rendu à la racine du projet :
 
 - [x] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
-- [ ] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
+- [x] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
 - [x] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
 
 ## R312 | Intégrer ([Pierre Pracht : AC 2401](https://moodle.univ-fcomte.fr/mod/assign/view.php?id=612668))
@@ -34,29 +34,31 @@ Noté sur 40.
 - [ ] usage de Classes utilitaires (1pt)
   - lien vers sa définition
   - lien vers son usage
-- [ ] Composants graphiques (0-1-2pts)
-  - liens
+- [x] Composants graphiques (0-1-2pts)
+  - [liens vers les composants graphiques](/src/components/FormKitListColors.vue)
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
-    - ...
-  - liens
+    - [liens vers des techniques css](/src/pages/personnaliser.vue)
 - Mise en page CSS (0-1-2pts)
   - Quelles techniques (Grilles Flex...)
-    - ...
-  - liens
+  - [liens vers une mise en page css](/src/pages/personnaliser.vue)
   - [ ] Mise en page fluide
-- [ ] Mobile First (0-1-2pts)
+- [x] Mobile First (0-1-2pts)
+      [https://github.com/MMI-SAE-301/sae-301-2022-lavaine-iris/commit/c2b6380607f7242d336afce8b80f612656c8f40d]
+      [lien vers les pages fluides](/src/pages/modeles.vue)
   - [ ] Plusieurs tailles
     - Lesquelles...
-- [ ] Dark Mode (0-1-2pts)
-  - [ ] Simple usage de 'dark:'
+- [x] Dark Mode (0-1-2pts)
+      [https://github.com/MMI-SAE-301/sae-301-2022-lavaine-iris/commit/55e523d4dd4e3b1128bb991532396c75f244d63a]
+  - [x] Simple usage de 'dark:'
   - [ ] Mise en place avec usage de custom property pour les couleurs. Ou usage de DaisyUI AVEC thèmes perso
-    - liens
+    - [liens vers une page en mode dark](/src/pages/index.vue)
 - "tailwin.config.js" (0-1-2pts)
-  - [ ] usage basique couleurs/fonts
+  [https://github.com/MMI-SAE-301/sae-301-2022-lavaine-iris/commit/e49ed4ee9e5aece3118c4dcdc8353a7b64a734d2]
+  - [x] usage basique couleurs/fonts
   - [ ] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
-    - liens
+    - [lien vers tailwind](/tailwind.config.js)
 - Composants "accessibles" (0-1-2pts)
   - [ ] textes "accessibles" (eg. 'sr-only')
   - [ ] Contenu accessible ET Usage de composants étudié pour accessibilité (Eg. HeadlessUI)
