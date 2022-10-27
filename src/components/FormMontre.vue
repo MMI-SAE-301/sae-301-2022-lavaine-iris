@@ -41,31 +41,31 @@ import MontreAffichage from './MontreAffichage.vue';
  <template>  
     <div class="flex w-full justify-center items-center">   
             <div class="w-1/2 grid place-content-center">
-                <MontreAffichage class="h-96" v-bind="montre"/>
+                <MontreAffichage class="h-96 dark:bg-Gris dark:rounded-full" v-bind="montre"/>
             </div>
         <section class="grid grid-cols-2 place-items-center md:grid-cols-1">
             <div class="p-2 flex flex-col-reverse md:grid-cols-1">
-                <FormKit type="form" v-model="montre"  :submit-attrs="{ classes: { input: 'bg-Gris py-3 px-24 font-Oswald m-5 hover:bg-Bleu hover:text-white' } }"
+                <FormKit type="form" v-model="montre"  :submit-attrs="{ classes: { input: 'bg-Gris py-3 px-24 font-Oswald m-5 hover:bg-Bleu hover:text-white dark:bg-white dark:text-black' } }"
                 @submit="upsertMontre" submit-label="AJOUTER AU PANIER">
 
                     <div class="my-7">           
                         <p class="font-Oswald">Couleur du bracelet</p>
-                        <hr class="border-black border-1 my-4" />
+                        <hr class="border-black border-1 my-4 dark:border-white" />
                         <FormKitListColors name="bracelet" />
                     </div>
                     <div class="my-7">
                         <p class="font-Oswald">Couleur du boîtier</p>
-                        <hr class="border-black border-1 my-4" />
+                        <hr class="border-black border-1 my-4 dark:border-white" />
                         <FormKitListColors name="boitier" />
                     </div>
                     <div class="my-7">
                         <p class="font-Oswald">Couleur de l'écran</p>
-                        <hr class="border-black border-1 my-4" />
+                        <hr class="border-black border-1 my-4 dark:border-white" />
                         <FormKitListColors name="ecran" />
                     </div>
                     <div class="my-7">
                         <p class="font-Oswald">Couleur du texte</p>
-                        <hr class="border-black border-1 my-4" />
+                        <hr class="border-black border-1 my-4 dark:border-white" />
                         <FormKitListColors name="texte" />
                     </div>
                 </FormKit>
