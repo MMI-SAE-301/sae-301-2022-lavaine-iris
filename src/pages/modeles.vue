@@ -8,5 +8,5 @@ import ListeMontres from '@/components/ListeMontres.vue';
         <p class="text-center m-5">Retrouvez tous les modèles montres que vous avez personnaliser ! </p>
     </div>
 
-    <ListeMontres :max="6" />
+    <ListeMontres :max="8" />
 </template>

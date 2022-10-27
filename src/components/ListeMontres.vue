@@ -14,11 +14,9 @@
  }
  </script>
  <template>
-     <ul>
+     <ul class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 place-items-center">
          <li v-for="montre in montres" :key="montre.id">
-           
                  <MontreAffichage class="w-64 flex" v-bind="montre" />
-            
          </li>
      </ul>
  </template>

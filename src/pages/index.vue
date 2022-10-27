@@ -28,10 +28,10 @@ import card from "../components/card.vue"
       <h3 class="text-white font-Oswald text-center text-4xl">MODÈLES D’INSPIRATIONS</h3>
     </div>
         <div class="grid place-items-center py-10  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
-            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
-            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
-            <img class="h-72 sm:m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
+            <img class="h-72 m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
+            <img class="h-72 m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
+            <img class="h-72 m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
+            <img class="h-72 m-8" src="../assets/Montre-inspi.png" alt="Inspirations montres"/>
         </div>
 
     <div>
