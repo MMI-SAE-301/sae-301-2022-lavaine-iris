@@ -1,10 +1,10 @@
 <script setup lang="ts">
- import type { colors, Montre } from '@/types';
+ import { type colors, type Montre, matBoitier, matBracelet } from '@/types';
  import { ref } from 'vue';
  import { supabase } from "@/supabase";
  import FormKitListColors from './FormKitListColors.vue';
  import { useRouter } from "vue-router";
-import MontreAffichage from './MontreAffichage.vue';
+ import MontreAffichage from './MontreAffichage.vue';
 
  const router = useRouter();
 
@@ -67,6 +67,10 @@ import MontreAffichage from './MontreAffichage.vue';
                         <p class="font-Oswald">Couleur du texte</p>
                         <hr class="border-black border-1 my-4 dark:border-white" />
                         <FormKitListColors name="texte" />
+                    </div>
+                    <div class="grid text-black">
+                        <FormKit name="id_mat_bracelet" label="Matière du bracelet" type="select" :options="matBracelet" />
+                        <FormKit name="id_mat_boitier" label="Matériaux du boîtier" type="select" :options="matBoitier" />
                     </div>
                 </FormKit>
 
