@@ -32,14 +32,14 @@ import MontreAffichage from './MontreAffichage.vue';
      if (error || !data) node.setErrors([error?.message]);
      else {
          node.setErrors([]);
-         router.push({ name: "montre-edit-id", params: { id: data[0].id } });
+         router.push({ name: "edit-id", params: { id: data[0].id } });
      }
  }
 
  </script>
 
  <template>  
-    <div class="flex w-full justify-center items-center">   
+    <div class="flex w-full justify-center items-center dark:bg-gray-800 dark:text-white">   
             <div class="w-1/2 grid place-content-center">
                 <MontreAffichage class="h-96 dark:bg-Gris dark:rounded-full" v-bind="montre"/>
             </div>
